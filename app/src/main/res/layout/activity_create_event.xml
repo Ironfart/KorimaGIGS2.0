@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".CreateEventActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre del evento:"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/edTxtEvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/ed_shape"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Artista:"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/edTxtEvArt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@android:color/white"
+        android:background="@drawable/ed_shape"
+        android:paddingLeft="10dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lugar:"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/edTxtEvPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@android:color/white"
+        android:background="@drawable/ed_shape"
+        android:paddingLeft="10dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha:"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/edTxtDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:textColor="@android:color/white"
+        android:background="@drawable/ed_shape"
+        android:paddingLeft="10dp"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_login_shape"
+        android:gravity="center"
+        android:text="Crear evento"
+        android:onClick="onCreateEv"/>
+
+</LinearLayout>
