@@ -1,3 +1,3 @@
 # KorimaGIGS2.0
 
-Diego Ivan Rodrígue Arreola 15551465
+Diego Ivan Rodríguez Arreola 15551465
